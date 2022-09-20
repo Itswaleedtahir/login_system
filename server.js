@@ -17,6 +17,8 @@ const port = process.env.PORT || 3000;
 app.use(bodyparser.json());
 app.use(bodyparser.urlencoded({ extended: true }))
 
+
+//Selecting Viewing engine
 app.set('view engine', 'ejs');
 
 // load static assets
