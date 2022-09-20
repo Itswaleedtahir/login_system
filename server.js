@@ -38,4 +38,6 @@ app.get('/', (req, res) =>{
     res.render('base', { title : "Login System"});
 })
 
+
+//Server Listening on port 3000
 app.listen(port, ()=>{ console.log("Lostening to the server on http://localhost:3000")});
